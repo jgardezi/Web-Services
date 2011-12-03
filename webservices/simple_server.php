@@ -14,13 +14,6 @@ $server->register("echoo",
 					
 $server->service( isset($HTTP_RAW_POST_DATA) ? $HTTP_RAW_POST_DATA : '' );
 
-/*$server = new SoapServer( null, 
-						array('uri' => "urn://tyler/res" ) );
-
-$server->addFunction('echoo');
-$server->handle();*/
-
-
 function echoo( $echo ) {
 	if ( $echo != null )
 		return "ECHO: " . $echo;
