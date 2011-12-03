@@ -1,5 +1,5 @@
 <?php
-define(COMPANY_NAME, 'SOAP Serverz R Us');
+define(COMPANY_NAME, 'SOAP Server');
 
 print('
 	<html>
