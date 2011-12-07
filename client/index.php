@@ -8,7 +8,7 @@ $year = $_GET['year'];
 
 if ( $_GET['submit'] === 'GO' && ($make != '' || $model != '' || $year != '') ) {
 	print "<h3>Search Results:</h3>";
-	require 'client/client.php';
+	require 'client.php';
 }
 
 print "<h3>Search for vehicles based on year, make or model:</h3>";
